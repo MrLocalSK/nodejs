@@ -23,7 +23,7 @@ yargs.command({
             else{
                 fs.writeFileSync(`./output/${fileName}`,'You are awesome');
                 fs.appendFileSync('./output/filelist.txt','\r\n' + fileName);
-                console.log('FIle Created Successfully!');
+                console.log('File Created Successfully!');
             }
         }
 		else{
